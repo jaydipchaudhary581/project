@@ -1,0 +1,360 @@
+ /* new section */
+
+ .magestore-bannerslider .flexslider {
+    margin: auto;
+    padding: 0;
+    background: none;
+    border: none;
+    position: relative;
+    zoom: 1;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.flex-viewport {
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    width: 800%;
+    transition-duration: 0s;
+    transform: translate3d(-1349px, 0px, 0px);
+
+}
+
+.clone {
+    width: 1349px;
+    margin-right: 0px;
+    float: left;
+    display: block;
+    height: 536px;
+}
+
+.cms-home #maincontent.page-main,
+.cms-custom-canvas-prints #maincontent.page-main,
+.cms-canvas-photo-collage #maincontent.page-main,
+.cms-canvas-wall-display #maincontent.page-main,
+.cms-split-canvas-prints #maincontent.page-main,
+.canvastool-index-canvas #maincontent.page-main {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.magestore-bannerslider .magestore-bannerslider-standard {
+    margin: 0 0 100px 0;
+}
+
+.magestore-bannerslider-standard {
+    width: 100%;
+}
+
+.magestore-bannerslider .flexslider {
+    background: none;
+    border: none;
+    position: relative;
+    zoom: 1;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+
+.magestore-bannerslider .flex-viewport {
+    max-height: 2000px;
+    transition: all 1s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.magestore-bannerslider .flexslider .slides {
+    zoom: 1;
+    position: relative;
+    width: 800%;
+    transition-duration: 0s;
+    transform: translate3d(-1349px, 0px, 0px);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.magestore-bannerslider .flexslider .slides li {
+    position: relative;
+    width: 1349px;
+    margin-right: 0px;
+    float: left;
+    display: block;
+    height: 536px;
+
+}
+
+.magestore-bannerslider .flexslider .slides>li {
+    -webkit-backface-visibility: hidden;
+}
+
+.magestore-bannerslider .slides>li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+
+    text-align: -webkit-match-parent;
+}
+
+.magestore-bannerslider .flexslider .slides li a {
+    display: block;
+    height: 536px;
+}
+
+
+.magestore-bannerslider .flexslider .slides img {
+    width: 100%;
+    display: block;
+    height: 536px;
+    cursor: pointer;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox {
+    width: 730px;
+    height: auto;
+    padding: 50px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    z-index: 999999;
+    color: #000000;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.magestore-bannerslider .slides>li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox .contentBox1 {
+    padding-right: 30px;
+    margin: 0 40px 0 0;
+    position: relative;
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox .contentBox1 {
+    width: calc(50% - 20px);
+    float: left;
+    height: auto;
+    text-align: center;
+    visibility: hidden !important;
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox {
+    color: #000000;
+    font-size: 50px;
+
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox .contentBox1 h4 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-family: 'poppinssemibold';
+    font-size: 44px;
+    color: #000000;
+}
+
+h4 {
+    font-weight: 500;
+    line-height: 1.1;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox .contentBox1 p{
+   font-family: 'poppinsregular';
+   font-size: 16px;
+   color: #000000;
+   margin: 0;
+}
+
+p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox .contentBox1 a {
+   background: #ff339a;
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox .contentBox1 a{
+   display: inline-block;
+   padding: 10px 20px;
+   font-family: 'poppinsregular';
+   font-size: 16px;
+   color: #ffffff;
+   margin: 10px 0 0 0;
+   vertical-align: top;
+   height: auto !important;
+   border-radius: 5px;
+}
+
+.magestore-bannerslider .flexslider .slides li .bannerContentBox .contentBox1:after {
+   content: '';
+   width: 1px;
+   height: 100%;
+   position: absolute;
+   border-right: dotted 1px #000000;
+   top: 0;
+   right: -10px;
+}
+
+
+*:after {
+   box-sizing: border-box;
+}
+
+
+.magestore-bannerslider .flex-control-nav {
+   width: auto;
+   position: absolute;
+   bottom: 50px;
+   text-align: center;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: 25px 30px 15px;
+   display: inline-block;
+   background: #ffffff;
+   border-radius: 40px;
+   list-style: none;
+}
+
+.magestore-bannerslider .flex-control-nav li {
+   margin: 0 11px;
+   display: inline-block;
+   zoom: 1;
+}
+
+.magestore-bannerslider .flex-control-paging li a.flex-active {
+   background: #ff339a;
+   cursor: default;
+}
+
+.magestore-bannerslider .flex-control-paging li a {
+   width: 11px;
+   height: 11px;
+   display: block;
+   text-indent: -9999px;
+   border-radius: 20px;
+}
+
+.flex-control-paging li a {
+   box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+.magestore-bannerslider .flexslider .flex-direction-nav {
+   width: 450px;
+   position: absolute;
+   bottom: 80px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.magestore-bannerslider .flexslider .slides:after {
+   content: "\0020";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+.magestore-bannerslider .flex-control-nav {
+   width: auto;
+   position: absolute;
+   bottom: 20px;
+   text-align: center;
+   right: 325px;
+}
+
+.magestore-bannerslider .flex-control-nav li {
+   margin: 0 6px;
+   display: inline-block;
+   zoom: 1;}
+
+   ul > li {
+       margin-top: 0rem;
+       margin-bottom: 1rem;
+   }    
+   .flex-direction-nav {
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+
+   .magestore-bannerslider .flex-direction-nav .flex-prev {
+       left: 10px;
+       background: url(arrow-sprite-in.png) left top no-repeat;
+   }
+
+   .magestore-bannerslider .flex-direction-nav a {
+       text-decoration: none;
+       display: block;
+       width: 30px;
+       height: 16px;
+       margin: -8px 0 0;
+       position: absolute;
+       top: 50%;
+       z-index: 10;
+       overflow: hidden;
+       opacity: 1;
+       cursor: pointer;
+       color: rgba(0,0,0,0.8);
+       text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+       transition: all .3s ease-in-out;
+       text-indent: 999999px;
+   }
+
+   ul > li{
+       margin-top: 0rem;
+       margin-bottom: 1rem;
+   }
+
+   .magestore-bannerslider .flex-direction-nav .flex-next {
+       right: 10px;
+       text-align: right;
+       background: url(arrow-sprite-in.png) right top no-repeat;
+   }
+
+
+
+

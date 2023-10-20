@@ -1,0 +1,69 @@
+.product-image {
+    min-width: 0;
+    margin: 5px;
+
+    a {
+        color: #ec1a30;
+        text-decoration: none;
+    }
+    .custom-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .product-name {
+        font-family: OpenSans-SB,open sans,sans-serif;
+        margin-top: 5px;
+        margin-bottom: 0;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .product-name a {
+        text-decoration: none;
+        color: #363636;
+    }
+    .new-price {
+        font-family: OpenSans-SB,open sans,sans-serif;
+        font-size: 14px;
+        color: #363636;
+        padding-right: 4px;
+        height: 3px;
+        padding-left: 3%;
+    }
+    .orignal-price {
+        height: 3px;
+        position: relative;
+    }
+    .orignal-price:before {
+        content: "";
+        position: absolute;
+        transform: rotate(10deg);
+        top: 46%;
+        left: 0;
+        right: 0;
+        height: 1.2px;
+        background: #646464;
+    }
+    button {
+        border: none;
+        width: auto;
+        /* float: left; */
+        height: auto;
+        padding: 7px 10px;
+        font-family: 'poppinsregular';
+        font-size: 13px;
+        color: #ffffff;
+        background: #ff339a;
+        margin: 0 10px 0 0;
+        transition: all .5s ease;
+        position: relative;
+        right: -134px;
+        cursor: pointer;
+    }
+
+
+}
+
